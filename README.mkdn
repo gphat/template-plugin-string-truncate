@@ -10,18 +10,24 @@ version 0.01
 
     [% USE st = String.Truncate %]
 
-    This thing happened [% time_dir.ago(some_seconds) %].
+    This string is elided: [% st.elide('LONG ASS STRING, SON!', 18); %]
+    This one is truncated: [% st.trunc('DAMN YOU GOT LONG STRINGS!', 10); %]
+    And other stuff can happen too: [% st.elide('SHORT STRING', 5, { truncate => 'left' }) %]
 
 # DESCRIPTION
 
 This plugin allows you to use functions from [String::Truncate](http://search.cpan.org/perldoc?String::Truncate) in your templates.
-It is very simple and hopefully requires little explanation.
+It is very simple and hopefully requires little explanation.  
 
 # FUNCTIONS
 
 ## elide
 
-## trun
+Truncates a string and marks the elision.  See L<String::Truncate/elide>.
+
+## trunc
+
+Truncates a string.  See L<String::Truncate/trunc>.
 
 # AUTHOR
 
