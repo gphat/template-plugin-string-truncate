@@ -23,11 +23,11 @@ It is very simple and hopefully requires little explanation.
 
 ## elide
 
-Truncates a string and marks the elision.  See L<String::Truncate/elide>.
+Truncates a string and marks the elision.  See `elide` in [String::Truncate](http://search.cpan.org/perldoc?String::Truncate).
 
 ## trunc
 
-Truncates a string.  See L<String::Truncate/trunc>.
+Truncates a string.  See `trunc` in [String::Truncate](http://search.cpan.org/perldoc?String::Truncate).
 
 # AUTHOR
 

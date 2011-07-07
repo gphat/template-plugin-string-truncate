@@ -23,7 +23,7 @@ It is very simple and hopefully requires little explanation.
 
 =function elide
 
-Truncates a string and marks the elision.  See L<String::Truncate/elide>.
+Truncates a string and marks the elision.  See C<elide> in L<String::Truncate>.
 
 =cut
 
@@ -31,7 +31,7 @@ sub elide { shift; return String::Truncate::elide(@_) }
 
 =function trunc
 
-Truncates a string.  See L<String::Truncate/trunc>.
+Truncates a string.  See C<trunc> in L<String::Truncate>.
 
 =cut
 
