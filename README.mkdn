@@ -1,0 +1,35 @@
+# NAME
+
+Template::Plugin::String::Truncate - String::Truncate functions for Template Toolkit
+
+# VERSION
+
+version 0.01
+
+# SYNOPSIS
+
+    [% USE st = String.Truncate %]
+
+    This thing happened [% time_dir.ago(some_seconds) %].
+
+# DESCRIPTION
+
+This plugin allows you to use functions from [String::Truncate](http://search.cpan.org/perldoc?String::Truncate) in your templates.
+It is very simple and hopefully requires little explanation.
+
+# FUNCTIONS
+
+## elide
+
+## trun
+
+# AUTHOR
+
+Cory G Watson <gphat@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Cold Hard Code, LLC.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
