@@ -4,7 +4,7 @@ Template::Plugin::String::Truncate - String::Truncate functions for Template Too
 
 # VERSION
 
-version 0.01
+version 0.03
 
 # SYNOPSIS
 
@@ -39,3 +39,5 @@ This software is copyright (c) 2011 by Cold Hard Code, LLC.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+testing
